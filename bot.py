@@ -140,10 +140,10 @@ def concepts(message):
         "or guaranteed outcomes."
     )
 
-@bot.message_handler(func=lambda m: m.text == "⚖️ Risk Management Fundamentals")
+@bot.message_handler(func=lambda m: m.text == "⚖️ Risk Management")
 def risk(message):
     bot.send_message(message.chat.id,
-        "⚖️ Risk Management Fundamentals\n\n"
+        "⚖️ Risk Management\n\n"
         "Risk awareness is essential in any financial activity.\n\n"
         "This section covers:\n\n"
         "• Position sizing principles\n"
@@ -172,10 +172,10 @@ def strategy(message):
         "This is purely educational discussion."
     )
 
-@bot.message_handler(func=lambda m: m.text == "❓ Frequently Asked Questions")
+@bot.message_handler(func=lambda m: m.text == "❓ FAQ")
 def faq(message):
     bot.send_message(message.chat.id,
-        "❓ Frequently Asked Questions\n\n"
+        "❓ FAQ\n\n"
         "Q: Do you provide trading signals?\n"
         "A: No. This bot shares educational material only.\n\n"
         "Q: Are profits guaranteed?\n"
