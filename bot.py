@@ -57,8 +57,8 @@ def add_user(user):
 def main_menu():
     markup = ReplyKeyboardMarkup(resize_keyboard=True)
     markup.add("📘 Beginner Guide", "📊 Market Concepts")
-    markup.add("⚖️ Risk Management Fundamentals", "🧠 Strategy Basics")
-    markup.add("❓ Frequently Asked Questions", "📩 Learning Support")
+    markup.add("⚖️ Risk Management", "🧠 Strategy Basics")
+    markup.add("❓ FAQ", "📩 Learning Support")
     return markup
 
 # ================= START =================
